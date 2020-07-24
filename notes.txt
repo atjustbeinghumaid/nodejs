@@ -1,0 +1,33 @@
+1. fetch-then chain to fetch some data 
+2. self created promise 
+3. async/await 
+4. async control flow
+5. callback based method
+
+DOUBTS:
+console.log after await statement ???
+return from fetch-then ???
+async control flow ???
+self made promise ???
+
+select filters = {
+    cols: [],
+    where: {
+        id: '',
+        spell: '',
+        type: '',
+        effect: ''
+    }
+    query: (){
+
+    }
+    [Symbol.iterator](){
+        cols: this.cols;
+        where: this.where;
+        return {
+            next(){
+
+            }
+        }
+    }
+}
